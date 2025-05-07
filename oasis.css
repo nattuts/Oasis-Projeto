@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+
+  header {
+    background: #6b7497;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .cadastro, .biblio{
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  h1 {
+    font-family: Brush Script MT;
+    font-size: 55px;
+  }
+
+  h2 {
+    margin-top: 40px;
+    color: #6b7497;
+  }
+
+  #formLivro, #listaLivros{
+    display: none;
+  }
+
+  form {
+    background: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    background: #3e64ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .review {
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-left: 3px solid #3e64ff;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .topnav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .topnav li a {
+    text-decoration: none;
+    font-family: 'Garamond', serif;
+    color: #050505;
+    padding: 10px 15px;
+    display: block;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .topnav li a:hover {
+    background-color: #020202;
+    color: white;
+  }

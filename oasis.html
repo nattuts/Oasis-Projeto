@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oasis</title>
+  <link rel="stylesheet" href="oasis.css">
+</head>
+<body>
+
+<header>
+  <h1>Oasis</h1>
+
+  <nav class="topnav">
+    <ul>
+      <li><a href="#" id="CadastrarLivro">Cadastrar Livro</a></li>
+      <li><a href="#">Remover Livro</a></li>
+      <li><a href="#">Atualizar Livro</a></li>
+      <li><a href="#" id="biblioteca">Biblioteca</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="cadastro">
+  <div id="formLivro">
+    <h2>Adicionar Livro</h2>
+    <form>
+      <input type="text" placeholder="Título do livro" required>
+      <input type="text" placeholder="Autor" required>
+      <input type="text" placeholder="Gênero" required>
+      <input type="text" placeholder="Total de páginas" required>
+      <input type="text" placeholder="Total de páginas lidas" required>
+      <textarea placeholder="Resenha"></textarea>
+      <input type="submit" value="Adicionar">
+    </form>
+  </div>
+</div>
+
+<div class="biblio">
+  <div id="listaLivros">
+    <h2>Biblioteca</h2>
+      <input type="text" placeholder="Pesquise um livro">
+      <input type="submit" value="Pesquisar">
+  </div>
+</div>
+
+<script src="oasis.js"></script>
+</body>
+</html>
